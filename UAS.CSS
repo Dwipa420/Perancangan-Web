@@ -1,0 +1,589 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Sora',sans-serif;
+    margin: 0;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap');
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    height: 2000px;
+    width: 100%;
+}
+.center {
+    padding: 7px 0;
+    text-align: center;
+    color: white;
+  }
+.center2 {
+    padding: 15px 0;
+    text-align: center; 
+  }
+.center3 {
+    padding: 5px 0;
+    text-align: center;
+    color: #2C3531;
+}
+.baratas{
+    width: full auto;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+}
+.nama{
+    width: 500px ;
+    height: 52px;
+    border-color: white;
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    left: 1390px;
+    bottom: 10px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    
+}
+.baratas1 {
+    width: 100px ;
+    height: 52px;
+    position: absolute;
+    cursor: pointer;
+    text-decoration: none;
+    left: 710px;
+    bottom: 27px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    
+}
+.baratas2 {
+    width: 276px ;
+    height: 52px;
+    position: absolute;
+    text-decoration: none;
+    left: 820px;
+    bottom: 27px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+}
+
+.baratas3 {
+    width: 150px ;
+    height: 52px;
+    position: absolute;
+    text-decoration: none;
+    left: 1100px;
+    bottom: 27px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+}
+
+.profilepic {
+    width: 70px ;
+    height: 70px;
+    background-color: white;
+    position: absolute;
+    left: 1790px;
+    top: 15px;
+    border-radius: 100%;
+    cursor: pointer;
+    background-image: url(20211123_124236.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 5%;
+}
+.bar{
+    width: 400px ;
+    height: 52px;
+    position: absolute;
+    left: 65px;
+    bottom: 27px;
+    background-image: url(KawanWHITE.bio.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.baratas1:hover {
+    background-color: gray;
+    color: white;
+}
+.baratas2:hover {
+    background-color: gray;
+    color: black;
+}
+.baratas3:hover {
+    background-color: gray;
+    color: black;
+}
+.profilepic:hover {
+    background-color: gray;
+    color: black;
+}
+
+
+/* ----------------------------------------------------------------------- */
+/* FIRST PANEL */
+/* ----------------------------------------------------------------------- */
+
+
+.firstpanel {
+    width: 2000px;
+    height: 1000px;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+.BG1 {
+    width: 2000px;
+    height: 1000px;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    background-image: url(Graphite\ Background.png);
+    background-blend-mode: screen;
+    opacity: 85%;
+}
+.kotak1 {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 200px;
+    top: 150px;
+    animation-name:anim ;
+    animation-duration: 2s;
+}
+img {
+    width: 650px;
+    height: 650px;
+    vertical-align: middle;
+  }
+@keyframes anim{
+    0% {top:200px; opacity: 0%;}
+    100% {top:150px; opacity: 100%;}
+}
+@keyframes anim2 {
+    0% {left:1320px; opacity: 0%;}
+    100% {left:1220px; opacity: 100%;}
+}
+@keyframes anim3 {
+    0% {top:150px; opacity: 0%;}
+    100% {top:250px; opacity: 100%;}
+}
+@keyframes anim4 {
+    0% {top:150px; opacity: 0%;}
+    100% {top:260px; opacity: 100%;}
+}
+@keyframes anim5 {
+    0% {width: 0; opacity: 0%; font-size: 0px;}
+    100% {width:700px; opacity: 100%;font-size: 40px;}
+}
+.kotakjudul{
+    width: 700px;
+    height: 90px;
+    position: absolute;
+    left: 1220px;
+    top: 150px;
+    font-size: 40px;
+    color: #66FCF1 ;
+    padding-right: 20px;
+    text-align: right;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    animation-name: anim2;
+    animation-duration: 2s;
+}
+.whiteish{
+    width: 700px;
+    height: 90px;
+    position: absolute;
+    left: 1220px;
+    top: 150px;
+    font-size: 40px;
+    color: white ;
+    padding: 17px 20px 0px 0px;
+    border-radius: 40px 0px 40px 0px;
+    text-align: right;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    animation-name: anim5;
+    animation-duration: 2s;
+    background-color: #23282c;
+}
+
+.grayish {
+    width: 700px;
+    height: 550px;
+    position: absolute;
+    left: 1220px;
+    top: 260px;
+    padding: 15px 20px 0px 10px;
+    border-radius: 40px 0px 40px 0px;
+    color: white;
+    animation-name: anim4;
+    animation-duration: 2s;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-size: 45px;
+    text-align: justify;
+    padding-right: 20px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+}
+
+
+/* ----------------------------------------------------------------------- */
+/* SECOND PANEL */
+/* ----------------------------------------------------------------------- */
+
+
+.secondpanel {
+    width: 2000px;
+    height: 1000px;
+    background-color: #1F2833;
+    top: 1000px;
+    right: 0px;
+    position: absolute;
+}
+
+.kotaktext2 {
+    
+    width: 700px;
+    height: 700px;
+    background-color: #0B0C10;
+    position: absolute;
+    left: 160px;
+    top: 150px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.icon1{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    left: 50px;
+    top: 35px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+.mySlides {
+    display: none;
+  }
+  
+.cursor {
+cursor: pointer;
+}
+.demo {
+    opacity: 0.6;
+  }
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev{
+    left: 0;
+}
+
+.img2{
+width: fit-content;
+height: fit-content;
+vertical-align: middle;
+}
+video {
+    padding: 10px;
+    max-width: fit-content;
+    max-height: 700px;
+  }
+
+.prev:hover,.next:hover{
+    background-color: gray;
+}
+.iconjudul1{
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    left: 200px;
+    top: 27px;
+    text-align: left;
+    color: #C5C6C7;
+    font-size: 35px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+}
+.icontext1{
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    left: 200px;
+    top: 70px;
+    text-align: left;
+    color: #C5C6C7;
+    font-size: 15px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+}
+.exp1 {
+    width: 700px;
+    height: 200px;
+    background-color: #0B0C10;
+    position: absolute;
+    left: 1220px;
+    top: 150px;
+    border-radius: 50px;
+    text-align: center;
+    color: #C5C6C7;
+    font-size: 35px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.exp2 {
+    width: 700px;
+    height: 200px;
+    background-color: #0B0C10;
+    position: absolute;
+    left: 1220px;
+    top: 400px;
+    border-radius: 50px;
+    text-align: center;
+    color: #C5C6C7;
+    font-size: 35px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.exp3 {
+    width: 700px;
+    height: 200px;
+    background-color: #0B0C10;
+    position: absolute;
+    left: 1220px;
+    top: 650px;
+    border-radius: 50px;
+    text-align: center;
+    color: #C5C6C7;
+    font-size: 35px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.exp1:hover{
+    background-color: #45a29e;
+}
+.exp2:hover{
+    background-color: #45a29e;
+}
+.exp3:hover{
+    background-color: #45a29e;
+}
+
+@keyframes fade {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+/* ----------------------------------------------------------------------- */
+/* THIRD PANEL */
+/* ----------------------------------------------------------------------- */
+
+.thirdpanel{
+    width: 2000px;
+    height: 1000px;
+    background-color: #2C3531;
+    top: 2000px;
+    right: 0px;
+    position: absolute;
+}
+
+.kotakjudul2{
+    width: 500px;
+    height: 70px;
+    background-color: #D1E8E2;
+    position: absolute;
+    right: 700px;
+    top: 120px;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+}
+
+.pic1{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    border-radius: 100%;
+    left: 70px;
+    top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 5%;
+}
+
+.box1{
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    left: 50px;
+    top: 400px;
+    color: black;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+}
+
+.kotakgrad1 {
+    
+    width: 400px;
+    height: 600px;
+    background-color: #2F4454;
+    position: absolute;
+    left: 330px;
+    top: 220px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.kotakgrad2 {
+    
+    width: 400px;
+    height: 600px;
+    background-color: #2F4454;
+    position: absolute;
+    left: 850px;
+    top: 220px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.kotakgrad3 {
+    
+    width: 400px;
+    height: 600px;
+    background-color: #2F4454;
+    position: absolute;
+    left: 1370px;
+    top: 220px;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+/* ----------------------------------------------------------------------- */
+/* fOURTH PANEL */
+/* ----------------------------------------------------------------------- */
+
+
+.fourthpanel{
+    width: 2000px;
+    height: 450px;
+    background-color: #393939;
+    top: 3000px;
+    right: 0px;
+    position: absolute;
+}
+.Kawan{
+    width: 400px ;
+    height: 52px;
+    position: absolute;
+    left: 60px;
+    bottom: 70px;
+    zoom: 200%;
+    background-image: url(KawanWHITE.bio.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position-x: center;
+    background-position-y: center;
+}
+.kotaktext3 {
+    width: 900px;
+    position: absolute;
+    color: white;
+    left: 150px;
+    top: 350px;
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+}
+
+.logo1{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    border-radius: 100%;
+    left: 1250px;
+    top: 200px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
+}
+
+.External {
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    color: white;
+    left: 1350px;
+    top: 100px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+}
+.logo1:hover {
+    background-color: gray;
+    color: white;
+}
